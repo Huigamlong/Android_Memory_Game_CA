@@ -251,7 +251,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewInter
                         imgURLS.add(imageUrl);
 
                         startDownloadImage(imageUrl, i+1);
-
+                        
                         // progress bar
                         currentProgress += 5;
                         progressBar.setProgress(currentProgress);
